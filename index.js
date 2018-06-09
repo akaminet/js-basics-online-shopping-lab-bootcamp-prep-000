@@ -61,7 +61,6 @@ function removeFromCart(item) {
       key = i
     }
   }
-  debugger
   if(key === -1){
     return "That item is not in your cart."
   }
