@@ -65,7 +65,7 @@ function removeFromCart(item) {
     return "That item is not in your cart."
   }
   else{
-    cart.prototype.splice(key, 1)
+    cart.prototype.splice(1, key)
   }
   return cart
 }
