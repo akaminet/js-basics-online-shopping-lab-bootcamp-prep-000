@@ -66,7 +66,6 @@ function removeFromCart(item) {
   }
   else{
     cart.prototype.splice(key, 1)
-    console.log(cart[key].itemName)
   }
   return cart
 }
