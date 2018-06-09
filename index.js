@@ -65,7 +65,7 @@ function removeFromCart(item) {
     return "That item is not in your cart."
   }
   else{
-    cart.splice(key, key+1)
+    cart.splice(key, 1)
   }
   return cart
 }
