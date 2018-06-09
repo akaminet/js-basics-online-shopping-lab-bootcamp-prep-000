@@ -76,7 +76,7 @@ function placeOrder(cardNumber) {
   }
   else{
     var num = total()
-    var str = `Your total cost is ${num}, which will be charged to the card ${cardNumber}`
+    var str = `Your total cost is $${num}, which will be charged to the card ${cardNumber}`
     while(cart.length > 0){
       cart.pop()
     }
