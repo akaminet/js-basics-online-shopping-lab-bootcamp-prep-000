@@ -57,7 +57,7 @@ function removeFromCart(item) {
   var key = -1
   for(var i = 0; i < cart.length; i++){
     debugger
-    if(cart[i].itemName === item){
+    if(cart[i].itemName == item){
       key = i
     }
   }
